@@ -1,5 +1,11 @@
 # Really easy comment generator in python.
 
+## Dependencies
+
+```
+pip install pyperclip
+```
+
 ## Examples:
 Input:
 ```bash
