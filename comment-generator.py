@@ -17,7 +17,7 @@ def get_comment(comment_start, comment_end, sep = '=', comment = None, size = No
 	for i in range(int((size - len(comment) - len(comment_start))/2)):
 		new_comment += sep
 	new_comment += f" {comment} "
-	for i in range(int((size - len(comment) - len(comment_start))/2)):
+	for i in range(int((size - 1 - len(comment) - len(comment_start))/2)):
 		new_comment += sep
 	new_comment += f"{comment_end}\n"
 	
